@@ -1,6 +1,6 @@
 ;; hu-rovas.mim -- Old Hungarian (Hungarian Runes) input method
 
-(input-method hu rovas)
+(input-method hu rovas-post)
 
 (description "Input method for the Old Hungarian script
 

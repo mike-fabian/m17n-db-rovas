@@ -12,7 +12,7 @@ http://oldhungarian.eu/index_en.html
 
 ## Mapping
 
-See the description at the top of the hu-rovas.mim file.
+See the description at the top of the hu-rovas-post.mim file.
 
 ## Dependencies
 
@@ -29,7 +29,7 @@ https://github.com/OldHungarian/old-hungarian-font/releases
 
 ``` bash
 $ mkdir -p ~/.m17n.d/
-$ cp hu-rovas.min ~/.m17n.d/
+$ cp hu-rovas-post.min ~/.m17n.d/
 $ ibus restart
 ```
 
@@ -37,9 +37,9 @@ Now ibus should list the newly added input method:
 
 ``` bash
 $ ibus  list-engine | grep  -i rovas
-  m17n:hu:rovas - rovas (m17n)
+  m17n:hu:rovas-post - rovas-post (m17n)
 ```
 
 Now start ibus-setup or the Gnome3 language settings and add
-the “rovas (m17n)” input method (Search for “Hungarian”).
+the “rovas-post (m17n)” input method (Search for “Hungarian”).
 
