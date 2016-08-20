@@ -29,7 +29,7 @@ https://github.com/OldHungarian/old-hungarian-font/releases
 
 ``` bash
 $ mkdir -p ~/.m17n.d/
-$ cp hu-rovas-post.min ~/.m17n.d/
+$ cp hu-rovas-post.mim ~/.m17n.d/
 $ ibus restart
 ```
 
